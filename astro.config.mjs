@@ -4,7 +4,8 @@ import solidJs from '@astrojs/solid-js'
 import node from '@astrojs/node'
 import AstroPWA from '@vite-pwa/astro'
 import vercel from '@astrojs/vercel/serverless'
-import netlify from '@astrojs/netlify'
+//import netlify from '@astrojs/netlify'
+import netlify from '@astrojs/netlify/functions';
 import disableBlocks from './plugins/disableBlocks'
 
 const envAdapter = () => {
