@@ -8,7 +8,7 @@ import netlify from '@astrojs/netlify'
 import disableBlocks from './plugins/disableBlocks'
 
 const envAdapter = () => {
-  return netlify()
+  return netlify({edgeMiddleware: true})
   /*
   switch (process.env.OUTPUT) {
     case 'vercel': return vercel({ analytics: false }) // Set `analytics` to `true` if you want to use Vercel Analytics
