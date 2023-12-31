@@ -47,7 +47,6 @@
     "js-sha256": "^0.9.0",
     "katex": "^0.16.9",
     "nanostores": "^0.9.4",
-    "netlify@latest": "link:astro/netlify@latest",
     "prism-theme-vars": "^0.2.4",
     "rehype-katex": "^6.0.3",
     "rehype-stringify": "^9.0.4",
